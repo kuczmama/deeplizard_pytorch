@@ -195,3 +195,4 @@ names = ('T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
          'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle Boot')
 plt.figure(figsize=(10, 10))
 plot_confusion_matrix(confusion_matrix, names)
+plt.show()
